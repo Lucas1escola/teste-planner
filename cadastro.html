@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planify - Cadastro</title>
+    <link rel="stylesheet" href="styles.css"> <link rel="icon" href="img/logo.png"> </head>
+<body>
+    <div class="auth-container">
+        <div class="logo-container">
+            <img src="img/logo.png" alt="Planify Logo"> </div>
+        <h1 class="auth-title">Cadastre-se</h1>
+
+        <form id="registerForm">
+            <div class="input-group">
+                <label for="newUsername">Usuário ou Email</label>
+                <input type="text" id="newUsername" name="newUsername" required placeholder="Digite seu usuário ou email">
+            </div>
+            <div class="input-group">
+                <label for="newPassword">Senha</label>
+                <input type="password" id="newPassword" name="newPassword" required placeholder="Crie uma senha">
+            </div>
+            <div class="input-group">
+                <label for="confirmPassword">Confirmar Senha</label>
+                <input type="password" id="confirmPassword" name="confirmPassword" required placeholder="Confirme sua senha">
+            </div>
+            
+            <button type="submit">Criar Conta</button>
+            <p class="error-message" id="errorMessageRegister"></p> </form>
+        <p class="form-link">
+            Já tem uma conta? <a href="login.html">Faça Login</a>
+        </p>
+    </div>
+
+    <script src="auth.js"></script> </body>
+</html>
