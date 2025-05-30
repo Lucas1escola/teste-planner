@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planify - Login</title>
+    <link href="styles.css" rel="stylesheet"> <link rel="icon" href="img/logo.png"> </head>
+<body>
+    <div class="auth-container"> <div class="logo-container"> <img src="img/logo.png" alt="Planify Logo">
+        </div>
+        <h1 class="auth-title">Login</h1> <form id="loginForm"> <div class="input-group"> <label for="email">Usuário ou Email</label>
+                <input type="email" id="email" name="email" required placeholder="Seu usuário ou email">
+            </div>
+            <div class="input-group"> <label for="password">Senha</label> <input type="password" id="password" name="password" required placeholder="Sua senha">
+            </div>
+
+            <div class="links-container">
+                <a href="#">Esqueci minha senha</a>
+                <a href="index.html">Inscrever-se</a> </div>
+
+            <button type="submit">Login</button>
+            <p class="error-message" id="errorMessageLogin"></p> </form>
+    </div>
+    <script src="auth.js"></script> </body>
+</html>
